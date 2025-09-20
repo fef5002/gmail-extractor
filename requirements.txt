@@ -1,0 +1,10 @@
+google-api-python-client==2.108.0
+google-auth-httplib2==0.1.1
+google-auth-oauthlib==1.1.0
+reportlab==4.0.4
+python-dateutil==2.8.2
+click==8.1.7
+pydrive2==1.17.0
+email-to==0.1.0
+beautifulsoup4==4.12.2
+lxml==4.9.3

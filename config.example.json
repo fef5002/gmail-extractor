@@ -1,0 +1,27 @@
+{
+  "accounts": [
+    {
+      "email": "your-email1@gmail.com",
+      "credentials_file": "credentials_account1.json",
+      "token_file": "token_account1.json"
+    },
+    {
+      "email": "your-email2@gmail.com", 
+      "credentials_file": "credentials_account2.json",
+      "token_file": "token_account2.json"
+    }
+  ],
+  "drive": {
+    "credentials_file": "drive_credentials.json",
+    "token_file": "drive_token.json",
+    "root_folder_name": "Gmail Exports"
+  },
+  "filters": {
+    "domains": ["example.com", "company.com"],
+    "senders": ["important@example.com", "boss@company.com"],
+    "recipients": ["me@example.com", "team@company.com"],
+    "include_attachments": true
+  },
+  "max_filename_length": 100,
+  "date_format": "ISO"
+}

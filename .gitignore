@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Gmail Extractor specific
+# Configuration files (may contain sensitive info)
+config.json
+config.local.json
+
+# Credential files (contain sensitive API credentials)
+credentials*.json
+*credentials*.json
+token*.json
+*token*.json
+
+# Output directories
+output/
+exports/
+downloads/
+
+# Log files
+*.log
+logs/
